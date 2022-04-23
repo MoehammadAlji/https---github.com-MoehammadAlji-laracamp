@@ -9,6 +9,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class CampBenefit extends Model
 {
     use HasFactory;
-    protected $fillable =['name'];
+    protected $fillable =['camp_id', 'name'];
 
 }
